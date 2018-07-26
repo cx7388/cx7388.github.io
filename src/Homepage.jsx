@@ -3,8 +3,6 @@ import './App.css';
 import { Container, Row, Col } from 'reactstrap';
 import kuleuven from './image/kuleuven.svg';
 import swjtu from './image/swjtu.jpg';
-import { Document, Page } from 'react-pdf'
-import cv from './files/cv.pdf'
 
 const headStyle = {
   textAlign: 'left'
@@ -14,9 +12,9 @@ const textStyle = {
 }
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <div>
@@ -63,43 +61,19 @@ class Home extends Component {
 }
 
 class Homepage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      numPages: null,
-      pageNumber: 1,
-    }
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   onDocumentLoadSuccess = ({ numPages }) => {
     this.setState({ numPages });
   }
   render() {
-    const { pageNumber, numPages } = this.state;
-    const height = 30;
-    if (this.props.command == 'Home') {
+    if (this.props.command === 'Home') {
       return (
         <div>
           <Container>
             <Home />
-          </Container>
-        </div>
-      );
-    }
-    if (this.props.command == 'CV') {
-      return (
-        <div>
-          <Container>
-            <Row>
-              <Col sm="12" md={{ size: 8, offset: 3 }}>
-                <Document
-                  file={cv}
-                  onLoadSuccess={this.onDocumentLoadSuccess}
-                >
-                  <Page width = "430" pageNumber={pageNumber} />
-                </Document>
-              </Col>
-            </Row>
           </Container>
         </div>
       );
