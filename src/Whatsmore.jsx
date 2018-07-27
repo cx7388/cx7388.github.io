@@ -62,6 +62,7 @@ class Whatsmore extends Component {
                 <NavItem>
                   <NavLink
                     className={classnames({ active: this.state.activeTab === '1' })}
+                    style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('1'); this.setVideoId('tm_uJaZkirc'); }}
                   >
                     Jozef II Straat Festival
@@ -70,6 +71,7 @@ class Whatsmore extends Component {
                 <NavItem>
                   <NavLink
                     className={classnames({ active: this.state.activeTab === '2' })}
+                    style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('2'); this.setVideoId('zCg7Ynz6Tb4') }}
                   >
                     Tokyo Ghoul Bass Cover
@@ -78,6 +80,7 @@ class Whatsmore extends Component {
                 <NavItem>
                   <NavLink
                     className={classnames({ active: this.state.activeTab === '3' })}
+                    style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('3'); this.setVideoId('FMUQgNWj_Os') }}
                   >
                     2017 Spring Gala of Leuven
@@ -86,6 +89,7 @@ class Whatsmore extends Component {
                 <NavItem>
                   <NavLink
                     className={classnames({ active: this.state.activeTab === '4' })}
+                    style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('4'); }}
                   >
                     SoundCloud Music

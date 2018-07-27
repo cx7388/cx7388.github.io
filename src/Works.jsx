@@ -20,7 +20,7 @@ class WorkCard extends Component {
             <CardTitle>{this.props.title}</CardTitle>
             <CardSubtitle>{this.props.subtitle}</CardSubtitle>
             <CardText>{this.props.text}</CardText>
-            <Button href={this.props.url} target="_blank">Learn more</Button>
+            <Button outline color="dark" href={this.props.url} target="_blank">Learn more</Button>
           </CardBody>
         </Card>
       </div>
