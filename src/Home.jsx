@@ -32,7 +32,7 @@ class Home extends Component {
             Thanks to the study and the master thesis, I grew a great interest in data visualization and data analysis.
             </p>
           </Col>
-          <Col xs="1" style={{ height: '70vh', borderRight: '1px groove grey' }}></Col>
+          <Col xs="1" style={{ height: '65vh', borderRight: '1px groove grey' }}></Col>
           <Col xs="1"></Col>
           <Col sm="5" >
             <h4 style={headStyle}>Bachelor</h4>

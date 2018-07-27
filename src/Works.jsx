@@ -115,7 +115,7 @@ class Works extends Component {
             <Col xs="1">
             </Col>
             <Col xs="4">
-              <WorkCard img={flexiblepcb.img} title={flexiblepcb.title} subtitle={flexiblepcb.subtitle} flexiblepcb={webapp.text} url={flexiblepcb.url} />
+              <WorkCard img={flexiblepcb.img} title={flexiblepcb.title} subtitle={flexiblepcb.subtitle} text={flexiblepcb.text} url={flexiblepcb.url} />
             </Col>
             <Col xs="1">
             </Col>

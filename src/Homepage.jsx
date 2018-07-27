@@ -13,7 +13,7 @@ class Homepage extends Component {
       return (
         <div>
           <Container>
-            <Home />
+            <Home/>
           </Container>
         </div>
       );
@@ -21,7 +21,7 @@ class Homepage extends Component {
     if (this.props.command === 'Works')
       return (
         <div>
-          <Works />
+          <Works/>
         </div>
       );
     return (
