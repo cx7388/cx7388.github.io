@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import cv from './image/cv_Page_1.png';
+import up from './image/up-button.svg'
 import './App.css';
-import { Breadcrumb, BreadcrumbItem, Modal, ModalBody, ListGroup, ListGroupItem, Col} from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem, Modal, ModalBody, ListGroup, ListGroupItem, Col } from 'reactstrap';
 import Homepage from './Homepage';
 import Header from './Header';
+import ScrollToTop from 'react-scroll-up';
 
 class App extends Component {
   constructor(props) {
@@ -28,28 +30,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header/>
+        <Header />
         <div>
           <Breadcrumb>
-            <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Home') }}>Home</a></BreadcrumbItem>
-            <BreadcrumbItem><a href='#' onClick={this.toggle}>CV</a></BreadcrumbItem>
+            <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Home') }}>Home</a></BreadcrumbItem>
+            <BreadcrumbItem><a href='#' className="RefHome" onClick={this.toggle}>CV</a></BreadcrumbItem>
             {/* <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Publication') }}>Publication</a></BreadcrumbItem> */}
-            <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Works') }}>Works</a></BreadcrumbItem>
-            <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Whatsmore') }}>What's more</a></BreadcrumbItem>
+            <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Works') }}>Works</a></BreadcrumbItem>
+            <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Whatsmore') }}>What's more</a></BreadcrumbItem>
           </Breadcrumb>
           <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
             <ModalBody>
-            <ListGroup>
-        <ListGroupItem>
-              <Col sm="12" >
-              <img width = "100%" src={cv} alt="cv"/>
-              </Col>
-              </ListGroupItem>
+              <ListGroup>
+                <ListGroupItem>
+                  <Col sm="12" >
+                    <img width="100%" src={cv} alt="cv" />
+                  </Col>
+                </ListGroupItem>
               </ListGroup>
             </ModalBody>
           </Modal>
         </div>
         <Homepage command={this.state.switchPage} />
+        <ScrollToTop showUnder={160}>
+          <img style = {{width:"6vh"}}src={up} alt="up" />
+        </ScrollToTop>
       </div>
     );
   }
