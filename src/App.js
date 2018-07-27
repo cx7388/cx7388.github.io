@@ -33,7 +33,7 @@ class App extends Component {
           <Breadcrumb>
             <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Home') }}>Home</a></BreadcrumbItem>
             <BreadcrumbItem><a href='#' onClick={this.toggle}>CV</a></BreadcrumbItem>
-            <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Publication') }}>Publication</a></BreadcrumbItem>
+            {/* <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Publication') }}>Publication</a></BreadcrumbItem> */}
             <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Works') }}>Works</a></BreadcrumbItem>
             <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Whatsmore') }}>What's more</a></BreadcrumbItem>
           </Breadcrumb>

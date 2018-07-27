@@ -3,6 +3,7 @@ import './App.css';
 import { Container } from 'reactstrap';
 import Home from './Home';
 import Works from './Works';
+import Whatsmore from './Whatsmore';
 
 class Homepage extends Component {
   onDocumentLoadSuccess = ({ numPages }) => {
@@ -13,7 +14,7 @@ class Homepage extends Component {
       return (
         <div>
           <Container>
-            <Home/>
+            <Home />
           </Container>
         </div>
       );
@@ -21,14 +22,15 @@ class Homepage extends Component {
     if (this.props.command === 'Works')
       return (
         <div>
-          <Works/>
+          <Works />
         </div>
       );
-    return (
-      <div>
-        This is {this.props.command}
-      </div>
-    );
+    if (this.props.command === 'Whatsmore')
+      return (
+        <div>
+          <Whatsmore />
+        </div>
+      );
   }
 }
 export default Homepage;
