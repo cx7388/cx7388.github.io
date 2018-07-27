@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.215bed07.css",
-  "main.css.map": "static/css/main.215bed07.css.map",
-  "main.js": "static/js/main.2275aa54.js",
-  "main.js.map": "static/js/main.2275aa54.js.map",
+  "main.css": "static/css/main.6c591b78.css",
+  "main.css.map": "static/css/main.6c591b78.css.map",
+  "main.js": "static/js/main.53a29a2e.js",
+  "main.js.map": "static/js/main.53a29a2e.js.map",
   "static\\media\\cv_Page_1.png": "static/media/cv_Page_1.1741f035.png",
   "static\\media\\dragon.jpg": "static/media/dragon.13c9a8bb.jpg",
   "static\\media\\facebook.svg": "static/media/facebook.ea1b815e.svg",
@@ -16,5 +16,6 @@
   "static\\media\\swjtu.jpg": "static/media/swjtu.5759d2e2.jpg",
   "static\\media\\thesis.png": "static/media/thesis.ef42e15c.png",
   "static\\media\\twitter.svg": "static/media/twitter.129f45aa.svg",
+  "static\\media\\up-button.svg": "static/media/up-button.9cd50a7c.svg",
   "static\\media\\webapp.png": "static/media/webapp.e13e5a4c.png"
 }
