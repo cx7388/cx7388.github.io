@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import logo from './image/dragon.jpg';
+import cv from './image/cv_Page_1.png';
 import './App.css';
 import { Breadcrumb, BreadcrumbItem, Modal, ModalBody, Col, ListGroup, ListGroupItem } from 'reactstrap';
 import Homepage from './Homepage';
-import { Document, Page } from 'react-pdf'
-import cv from './files/cv.pdf'
 
 class App extends Component {
   constructor(props) {
@@ -21,16 +20,12 @@ class App extends Component {
   changeHomepage(e) {
     this.setState({ switchPage: e });
   }
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  }
   toggle() {
     this.setState({
       modal: !this.state.modal
     });
   }
   render() {
-    const { pageNumber } = this.state;
     return (
       <div className="App">
         <header className="App-header">
@@ -50,15 +45,8 @@ class App extends Component {
             <ModalBody>
             <ListGroup>
         <ListGroupItem>
-              <Col  sm="12" md={{ size: 8, offset: 1 }}>
-
-              <Document
-                file={cv}
-                onLoadSuccess={this.onDocumentLoadSuccess}
-              >
-                <Page width={565} pageNumber={pageNumber} />
-              </Document>
-
+              <Col sm="12" >
+              <img width = "100%" src={cv} alt="cv"/>
               </Col>
               </ListGroupItem>
               </ListGroup>
