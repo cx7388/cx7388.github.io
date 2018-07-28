@@ -3,6 +3,8 @@ import './App.css';
 import {
   Col, Row, Container
 } from 'reactstrap';
+import intl from 'react-intl-universal';
+import Cookies from 'js-cookie';
 import logo from './image/dragon.jpg';
 import gmail from './image/gmail.svg';
 import linkedin from './image/linkedin.svg';
@@ -11,16 +13,16 @@ import facebook from './image/facebook.svg';
 import twitter from './image/twitter.svg'
 
 class Header extends Component {
-  //   constructor(props) {
-  //     super(props);
-  //     this.state = { 
-  //       gmailFadeIn: false,
-  //       githubFadeIn:false,
-  //       linkedinFadeIn:false, 
-  //     };
-  //     this.toggle = this.toggle.bind(this);
-  // }
-
+  handleLocaleChange(locale) {
+    Cookies.set("lang",locale);
+    let options = {
+      currentLocale: locale, // Current locale such as 'en-US'
+      urlLocaleKey: locale, // URL's query Key to determine locale. Example: if URL=http://localhost?lang=en-US, then set it 'lang'
+      cookieLocaleKey: locale, // Cookie's Key to determine locale. Example: if cookie=lang:en-US, then set it 'lang'
+    };
+    intl.determineLocale(options)
+    window.location.reload();
+  }
   render() {
     return (
       <div>
@@ -34,9 +36,9 @@ class Header extends Component {
                   <Container>
                     <Col xs="12">
                       <Row>
-                        <a className="Ref" href='#'>EN</a>
+                        <a className="Ref" onClick={() => {this.handleLocaleChange("en-US")}} href='#'>EN</a>
                         <div className="Ref">|</div>
-                        <a className="Ref" href='#'>中文</a>
+                        <a className="Ref" onClick={() => {this.handleLocaleChange("zh-CN")}} href='#'>中文</a>
                       </Row>
                     </Col>
                   </Container>
@@ -47,7 +49,7 @@ class Header extends Component {
           <Row>
             <Col xs="9">
               <img src={logo} className="App-logo" alt="logo" />
-              <h1 className="App-title">Welcome to River Huang's Homepage</h1>
+              <h1 className="App-title">{intl.get('WELCOME_MESSAGE')}</h1>
             </Col>
             <Col xs="3" style={{ marginTop: "5.5vh" }}>
               <Row style={{ marginBottom: "1vh", float: "right", }}>

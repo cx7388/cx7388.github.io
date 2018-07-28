@@ -6,9 +6,11 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "gh-pages": "^1.2.0",
+    "js-cookie": "^2.2.0",
     "npm": "^6.2.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-intl-universal": "^1.11.6",
     "react-pdf": "^3.0.5",
     "react-player": "^1.6.4",
     "react-scripts": "1.1.4",
