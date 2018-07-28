@@ -31,5 +31,20 @@
     "MUSIC_JOZEF":"Jozef II Straat Festival",
     "MUSIC_TOKYO":"Tokyo Ghoul Bass Cover",
     "MUSIC_GALA":"2017 Spring Gala of Leuven",
-    "MUSIC_SOUNDCLOUD":"SoundCloud Music"
+    "MUSIC_SOUNDCLOUD":"SoundCloud Music",
+    "PHOTOGRAPHY":"Photography",
+    "PHOTOGRAPHY_INTRO":"I love traveling, and I like taking photos. I want to capture the beautiful people and scenery.",
+    "PHOTOGRAPHY_TEXT":"Here are some photos I took when I traveled in Europe.",
+    "PHOTO_ANTWERP_HEADER":"Antwerp Train Station",
+    "PHOTO_ANTWERP":"Antwerp",
+    "PHOTO_SOUTHFRANCE_GIRL_HEADER":"Girl and mother",
+    "PHOTO_SOUTHFRANCE_BRIDGE_HEADER":"Bridge",
+    "PHOTO_SOUTHFRANCE_LAVENDER_HEADER":"Lavender",
+    "PHOTO_SOUTHFRANCE":"South France",
+    "PHOTO_PRAGUE_MAN_HEADER":"Man",
+    "PHOTO_PRAGUE_OLDYOUNG_HEADER":"Old and Young",
+    "PHOTO_PRAGUE":"Prague",
+    "PHOTO_AMSTERDAM":"Amsterdam",
+    "PHOTO_MALTA_PIGEON_HEADER":"Pigeon",
+    "PHOTO_MALTA":"Malta"
 }
