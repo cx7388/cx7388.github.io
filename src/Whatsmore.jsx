@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import intl from 'react-intl-universal';
 import './App.css';
 import { Jumbotron, Container, Col, Row, Nav, NavItem, NavLink } from 'reactstrap';
 import YouTube from 'react-youtube';
@@ -53,10 +54,10 @@ class Whatsmore extends Component {
       <div>
         <Container>
           <Jumbotron>
-            <h1 className="display-3">Music!</h1>
-            <p className="lead">Yes, I love music! I play bass, I enjoy the power of bass. And I also play guitar and computer music.</p>
+            <h1 className="display-3">{intl.get('MUSIC')}!</h1>
+            <p className="lead">{intl.get('MUSIC_INTRO')}</p>
             <hr className="my-2" />
-            <p>I used to lead a band when I was a student, and we played in front of people. I also made some computer music. Let's check it!</p>
+            <p>{intl.get('MUSIC_TEXT')}</p>
             <div className="lead">
               <Nav tabs>
                 <NavItem>
@@ -65,7 +66,7 @@ class Whatsmore extends Component {
                     style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('1'); this.setVideoId('tm_uJaZkirc'); }}
                   >
-                    Jozef II Straat Festival
+                    {intl.get("MUSIC_JOZEF")}
             </NavLink>
                 </NavItem>
                 <NavItem>
@@ -74,7 +75,7 @@ class Whatsmore extends Component {
                     style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('2'); this.setVideoId('zCg7Ynz6Tb4') }}
                   >
-                    Tokyo Ghoul Bass Cover
+                    {intl.get('MUSIC_TOKYO')}
             </NavLink>
                 </NavItem>
                 <NavItem>
@@ -83,7 +84,7 @@ class Whatsmore extends Component {
                     style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('3'); this.setVideoId('FMUQgNWj_Os') }}
                   >
-                    2017 Spring Gala of Leuven
+                    {intl.get('MUSIC_GALA')}
             </NavLink>
                 </NavItem>
                 <NavItem>
@@ -92,7 +93,7 @@ class Whatsmore extends Component {
                     style = {{cursor: "pointer"}}
                     onClick={() => { this.toggle('4'); }}
                   >
-                    SoundCloud Music
+                    {intl.get('MUSIC_SOUNDCLOUD')}
             </NavLink>
                 </NavItem>
               </Nav>
