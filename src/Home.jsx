@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import intl from 'react-intl-universal';
 import './App.css';
 import kuleuven from './image/kuleuven.svg';
 import swjtu from './image/swjtu.jpg';
@@ -17,39 +18,22 @@ class Home extends Component {
       <div>
         <Row>
           <Col xs="5">
-            <h3 style={headStyle}>Background</h3>
-            <p style={textStyle}>My name is He Huang, I'd rather call myself River Huang, I was born in Chengdu, China.
-            Now I am a master student at KU Leuven. My specialization is in programming, data visualization, and data analysis.
-            I can skilled use different programming language, C, C++, Java, JavaScript, PHP, Python, MATLAB, Arduino etc.
-            And I am familiar with the HCI concept, in the application layout design, I always tried to find the best way of visualization.
-            </p>
-            <h3 style={headStyle}>Education</h3>
-            <h4 style={headStyle}>Master</h4>
+            <h3 style={headStyle}>{intl.get('BACKGROUND')}</h3>
+            <p style={textStyle}>{intl.get('BACKGROUND_TEXT')}</p>
+            <h3 style={headStyle}>{intl.get('EDUCATION')}</h3>
+            <h4 style={headStyle}>{intl.get('MASTER')}</h4>
             <img style={{ height: '5vh', float: 'left', marginRight: '1vw' }} src={kuleuven} alt="kuleuven" />
-            <p style={textStyle}>My major of master is Electronics and ICT Engineering Technology (Option: Internet Computing).
-            During the master study, I majored in different web development stack and design concepts.
-            My master thesis is data visualization for the older adult.
-            Thanks to the study and the master thesis, I grew a great interest in data visualization and data analysis.
-            </p>
+            <p style={textStyle}>{intl.get('MASTER_TEXT')}</p>
           </Col>
           <Col xs="1" style={{ height: '65vh', borderRight: '1px groove grey' }}></Col>
           <Col xs="1"></Col>
           <Col sm="5" >
-            <h4 style={headStyle}>Bachelor</h4>
+            <h4 style={headStyle}>{intl.get('BACHELOR')}</h4>
             <img style={{ height: '5vh', float: 'left', marginRight: '1vw' }} src={kuleuven} alt="kuleuven" />
-            <p style={textStyle}>
-              When I was an bachelor Electronics Engineering student at KU Leuven, I started to get involved in various computer technologies and programming techniques.
-              I gradually liked programming, and its logic made me feel happy.
-              Studying at KU Leuven is hard but with pleasure.
-              I still think that I changed my major and went to Leuven is the most important decision in my life.
-            </p>
+            <p style={textStyle}>{intl.get('BACHELOR_KULEUVEN_TEXT')}</p>
             <div>&nbsp;</div>
             <img style={{ height: '10vh', float: 'left', marginRight: '1vw' }} src={swjtu} alt="swjtu" />
-            <p style={textStyle}>
-              Southwest Jiaotong University is where the dream starts. I studied vehicle engineering at Southwest Jiaotong University and achieved good results.
-              I have won two scholarships and ranked the top ten among more than 200 students. But I gradually felt that the things I learned in vehicle engineering were too rigid.
-              I want more flexible and cutting-edge knowledge. At that time, I learned that SWJTU had a 2+2 project with KU Leuven, so I signed up and passed the test to KU Leuven.
-            </p>
+            <p style={textStyle}>{intl.get('BACHELOR_SWJTU_TEXT')}</p>
           </Col>
         </Row>
       </div>

@@ -35,14 +35,14 @@ class Whatsmore extends Component {
   render() {
     const opts = {
       height: '390',
-      width: '640',
+      width: '100%',
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
       }
     };
     const optsgala = {
       height: '390',
-      width: '640',
+      width: '100%',
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
         start: 0,
@@ -57,7 +57,7 @@ class Whatsmore extends Component {
             <p className="lead">Yes, I love music! I play bass, I enjoy the power of bass. And I also play guitar and computer music.</p>
             <hr className="my-2" />
             <p>I used to lead a band when I was a student, and we played in front of people. I also made some computer music. Let's check it!</p>
-            <p className="lead">
+            <div className="lead">
               <Nav tabs>
                 <NavItem>
                   <NavLink
@@ -96,8 +96,8 @@ class Whatsmore extends Component {
             </NavLink>
                 </NavItem>
               </Nav>
-            </p>
-            <Container>
+            </div>
+            <Container style={{marginTop:'5vh'}}>
               <Row>
                 <Col sm="12" md={{ size: 8, offset: 2 }}>
                   {this.state.activeTab === "4" ?
@@ -106,8 +106,9 @@ class Whatsmore extends Component {
                         <SoundCloudPlayer
                           url='https://soundcloud.com/he-huang-513802433/return'
                           playing={false}
-                          controls={true}
+                          controls={false}
                           height='18vh'
+                          width='100%'
                         />
                       </div>
                       <div style={{ marginTop: "5vh" }}>
@@ -116,6 +117,7 @@ class Whatsmore extends Component {
                           playing={false}
                           controls={true}
                           height='18vh'
+                          width='100%'
                         />
                       </div>
                       <div style={{ marginTop: "5vh" }}>
@@ -124,6 +126,7 @@ class Whatsmore extends Component {
                           playing={false}
                           controls={true}
                           height='18vh'
+                          width='100%'
                         />
                       </div>
                       <div style={{ marginTop: "5vh" }}>
@@ -132,6 +135,7 @@ class Whatsmore extends Component {
                           playing={false}
                           controls={true}
                           height='18vh'
+                          width='100%' 
                         />
                       </div>
                     </div> :
