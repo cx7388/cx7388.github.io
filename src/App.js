@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-up';
 import { Breadcrumb, BreadcrumbItem, Modal, ModalBody, ListGroup, ListGroupItem, Col } from 'reactstrap';
 import intl from 'react-intl-universal';
 import Cookies from 'js-cookie';
-import cv from './image/cv_Page_1.png';
+import cv from './image/cv.png';
 import up from './image/up-button.svg'
 import './App.css';
 import Homepage from './Homepage';
