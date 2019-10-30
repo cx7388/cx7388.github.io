@@ -8,6 +8,7 @@ import {
 } from 'reactstrap';
 import thesisimg from './image/thesis.png';
 import mamcaimg from './image/mamca.jpg';
+import newmamcaimg from './image/MAMCA.png';
 import webappimg from './image/webapp.png';
 import pathfindingimg from './image/pathfinding.jpg';
 import flexiblepcbimg from './image/flexiblepcb.jpg';
@@ -34,6 +35,14 @@ class WorkCard extends Component {
 
 class Works extends Component {
   render() {
+    var newmamca = {
+      img: newmamcaimg,
+      title: intl.get('NEWMAMCA_TITLE'),
+      subtitle: intl.get('AT_VUB'),
+      text: intl.get('NEWMAMCA_TEXT'),
+      url: "https://mamca.vub.be"
+    }
+
     var mamca = {
       img: mamcaimg,
       title: intl.get('MAMCA_TITLE'),
@@ -77,6 +86,13 @@ class Works extends Component {
       <div>
         <Container>
           <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
+          <Col xs="1">
+            </Col>
+            <Col xs="4">
+              <WorkCard img={newmamca.img} title={newmamca.title} subtitle={newmamca.subtitle} text={newmamca.text} url={newmamca.url} />
+            </Col>
+            <Col xs="1">
+            </Col>
             <Col xs="1">
             </Col>
             <Col xs="4">
@@ -84,15 +100,15 @@ class Works extends Component {
             </Col>
             <Col xs="1">
             </Col>
-            <Col xs="1">
+          </Row>
+          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
+          <Col xs="1">
             </Col>
             <Col xs="4">
               <WorkCard img={thesis.img} title={thesis.title} subtitle={thesis.subtitle} text={thesis.text} url={thesis.url} />
             </Col>
             <Col xs="1">
-            </Col>
-          </Row>
-          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
+            </Col>  
             <Col xs="1">
             </Col>
             <Col xs="4">
@@ -100,15 +116,16 @@ class Works extends Component {
             </Col>
             <Col xs="1">
             </Col>
-            <Col xs="1">
+
+          </Row>
+          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}> 
+          <Col xs="1">
             </Col>
             <Col xs="4">
               <WorkCard img={pathfinding.img} title={pathfinding.title} subtitle={pathfinding.subtitle} text={pathfinding.text} url={pathfinding.url} />
             </Col>
             <Col xs="1">
             </Col>
-          </Row>
-          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}> 
             <Col xs="1">
             </Col>
             <Col xs="4">
