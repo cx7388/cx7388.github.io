@@ -64,7 +64,7 @@ class Works extends Component {
       title: intl.get('WEBAPP_TITLE'),
       subtitle: intl.get('AT_KULEUVEN'),
       text: intl.get('WEBAPP_TEXT'),
-      url: "http://a17-webapps09.studev.groept.be/a17_webapps09/"
+      url: "https://github.com/cx7388/GraceAgeWebApp/"
     }
     
     var pathfinding = {

@@ -25,12 +25,12 @@ class Homepage extends Component {
           <Works />
         </div>
       );
-    if (this.props.command === 'Whatsmore')
-      return (
-        <div>
-          <Whatsmore />
-        </div>
-      );
+    // if (this.props.command === 'Whatsmore')
+    //   return (
+    //     <div>
+    //       <Whatsmore />
+    //     </div>
+    //   );
   }
 }
 export default Homepage;

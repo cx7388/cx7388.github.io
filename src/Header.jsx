@@ -7,6 +7,7 @@ import intl from 'react-intl-universal';
 import Cookies from 'js-cookie';
 import logo from './image/dragon.jpg';
 import gmail from './image/gmail.svg';
+import outlook from './image/outlook.svg';
 import linkedin from './image/linkedin.svg';
 import github from './image/github.svg';
 import facebook from './image/facebook.svg';
@@ -51,15 +52,23 @@ class Header extends Component {
               <img src={logo} className="App-logo" alt="logo" />
               <h1 className="App-title">{intl.get('WELCOME_MESSAGE')}</h1>
             </Col>
-            <Col xs="3" style={{ marginTop: "5.5vh" }}>
-              <Row style={{ marginBottom: "1vh", float: "right", }}>
+            <Col xs="3" style={{ marginTop: "2.5vh" }}>
+              <Row style={{ marginBottom: "1vh", float: "right", }}> 
                 <Container>
+                <Col xs="12">
+                    <a className="Ref" href="mailto:he.huang@vub.be">
+                      he.huang@vub.be
+                </a>
+                    <a className="Ref" href="mailto:cx7388@gmail.com">
+                      <img style={{ marginLeft: "2.5vh", right: "0"}} src={outlook} className="Header-img" alt="outlook" />
+                    </a>
+                  </Col>
                   <Col xs="12">
                     <a className="Ref" href="mailto:cx7388@gmail.com">
                       cx7388@gmail.com
                 </a>
                     <a className="Ref" href="mailto:cx7388@gmail.com">
-                      <img style={{ marginLeft: "1vh" }} src={gmail} className="Header-img" alt="gmail" />
+                      <img style={{ marginLeft: "1vh", right: "0" }} src={gmail} className="Header-img" alt="gmail" />
                     </a>
                   </Col>
                 </Container>

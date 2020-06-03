@@ -74,7 +74,7 @@ class App extends Component {
               <BreadcrumbItem><a href='#' className="RefHome" onClick={this.toggle}>{intl.get('CV')}</a></BreadcrumbItem>
               {/* <BreadcrumbItem><a href='#' onClick={() => { this.changeHomepage('Publication') }}>Publication</a></BreadcrumbItem> */}
               <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Works') }}>{intl.get('WORKS')}</a></BreadcrumbItem>
-              <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Whatsmore') }}>{intl.get('WHATSMORE')}</a></BreadcrumbItem>
+              {/* <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Whatsmore') }}>{intl.get('WHATSMORE')}</a></BreadcrumbItem> */}
             </Breadcrumb>
             <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
               <ModalBody>

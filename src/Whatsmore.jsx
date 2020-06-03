@@ -209,6 +209,18 @@ class PhotographyPart extends Component {
         captionText: intl.get('PHOTO_SOUTHFRANCE'),
       },
       {
+        src: 'https://res.cloudinary.com/ddwpezn3f/image/upload/v1591200378/Homepage/Photography/Sunset.jpg',
+        altText: 'Sunset',
+        captionHeader: intl.get('PHOTO_SUNSET_HEADER'),
+        captionText: intl.get('PHOTO_BRUSSELS'),
+      },
+      {
+        src: 'https://res.cloudinary.com/ddwpezn3f/image/upload/v1591200374/Homepage/Photography/Bright_Brussels.jpg',
+        altText: 'Bright Brussels',
+        captionHeader: intl.get('PHOTO_BRIGHTBRUSSELS_HEADER'),
+        captionText: intl.get('PHOTO_BRUSSELS'),
+      },
+      {
         src: 'http://res.cloudinary.com/ddwpezn3f/image/upload/v1532805797/Homepage/Photography/South_France_3.jpg',
         altText: 'SouthFranceBridge',
         captionHeader: intl.get('PHOTO_SOUTHFRANCE_BRIDGE_HEADER'),
