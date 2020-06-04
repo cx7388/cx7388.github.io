@@ -12,6 +12,7 @@ import linkedin from './image/linkedin.svg';
 import github from './image/github.svg';
 import facebook from './image/facebook.svg';
 import twitter from './image/twitter.svg'
+import vub from './image/VUB_MONO.png'
 
 class Header extends Component {
   handleLocaleChange(locale) {
@@ -76,6 +77,9 @@ class Header extends Component {
               <Row style={{ float: "right" }}>
                 <Container>
                   <Col xs="12">
+                  <a style={{ marginLeft: "1vh" }} href="https://cris.vub.be/en/persons/he-huang(1eb9fb7f-168d-448a-917b-0e1eaacfbad0).html" target="_blank" rel="noopener noreferrer">
+                      <img style={{ marginLeft: "1vh" }} src={vub} className="Header-img" alt="vub" />
+                    </a>
                     <a style={{ marginLeft: "1vh" }} href="https://github.com/cx7388" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={github} className="Header-img" alt="github" />
                     </a>

@@ -3,6 +3,7 @@ import './App.css';
 import { Container } from 'reactstrap';
 import Home from './Home';
 import Works from './Works';
+import Publications from './Publications';
 import Whatsmore from './Whatsmore';
 
 class Homepage extends Component {
@@ -19,6 +20,12 @@ class Homepage extends Component {
         </div>
       );
     }
+    if (this.props.command === 'Publications')
+    return (
+      <div>
+        <Publications />
+      </div>
+    );
     if (this.props.command === 'Works')
       return (
         <div>
