@@ -19,7 +19,7 @@ class Publications extends Component {
                     <ListGroup>
                         <ListGroupItem style={{marginTop:"3vh"}}>
                             <ListGroupItemHeading>
-                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1591264996/Homepage/MAMCA_software.pdf" target="_blank" >
+                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1591264996/Homepage/Understanding_passenger_and_freight_vehicle_behavior_Published.pdf" target="_blank" >
                                  {intl.get('PUBLICATION_ANALYZING_VEHICLE')}
                                  </a>
                             </ListGroupItemHeading>
@@ -37,7 +37,7 @@ class Publications extends Component {
                         </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
-                            <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1591264996/Homepage/Understanding_passenger_and_freight_vehicle_behavior_Published.pdf" target="_blank" >
+                            <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1591264996/Homepage/MAMCA_software.pdf" target="_blank" >
                                 {intl.get('PUBLICATION_NEW_MAMCA')}
                             </a>
                             </ListGroupItemHeading>
