@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 import Home from './Home';
 import Works from './Works';
 import Publications from './Publications';
-import Whatsmore from './Whatsmore';
+// import Whatsmore from './Whatsmore';
 
 class Homepage extends Component {
   onDocumentLoadSuccess = ({ numPages }) => {
