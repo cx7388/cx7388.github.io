@@ -19,6 +19,24 @@ class Publications extends Component {
                     <ListGroup>
                     <ListGroupItem>
                             <ListGroupItemHeading>
+                            <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1667561445/Homepage/A_GPS-based_approach_to_measure_the_environmental_impact.pdf" target="_blank"  rel="noopener noreferrer">
+                                {intl.get('PUBLICATION_GPS_BASED')}
+                            </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                            <b>Brusselaers, N., Huang, H., Macharis, C., & Mommens, K.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                            <a style={{color: "inherit"}} href="https://www.sciencedirect.com/science/article/pii/S0195925522002219" target="_blank"  rel="noopener noreferrer">
+                            Environmental Impact Assessment Review, 98, 106955.
+                            </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{color: 'grey'}}>
+                            Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                    <ListGroupItem style={{marginTop:"3vh"}}>
+                            <ListGroupItemHeading>
                             <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1622042392/Homepage/MAMCA_mass-participation.pdf" target="_blank"  rel="noopener noreferrer">
                                 {intl.get('PUBLICATION_MAMCA_MASS')}
                             </a>
@@ -50,7 +68,7 @@ class Publications extends Component {
                             </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{color: 'grey'}}>
-                            Article
+                            Journal paper
                             </ListGroupItemText>
                         </ListGroupItem>
                         <ListGroupItem>
@@ -86,7 +104,7 @@ class Publications extends Component {
                             </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{color: 'grey'}}>
-                            Article
+                            Journal paper
                             </ListGroupItemText>
                         </ListGroupItem>
                     </ListGroup>
