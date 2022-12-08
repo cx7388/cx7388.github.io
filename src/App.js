@@ -71,7 +71,7 @@ class App extends Component {
           <div>
             <Breadcrumb>
               <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Home') }}>{intl.get('HOME')}</a></BreadcrumbItem>
-              <BreadcrumbItem><a href='#' className="RefHome" onClick={this.toggle}>{intl.get('CV')}</a></BreadcrumbItem>
+              {/* <BreadcrumbItem><a href='#' className="RefHome" onClick={this.toggle}>{intl.get('CV')}</a></BreadcrumbItem> */}
               <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Publications') }}>{intl.get('PUBLICATIONS')}</a></BreadcrumbItem>
               <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Works') }}>{intl.get('WORKS')}</a></BreadcrumbItem>
               {/* <BreadcrumbItem><a href='#' className="RefHome" onClick={() => { this.changeHomepage('Whatsmore') }}>{intl.get('WHATSMORE')}</a></BreadcrumbItem> */}

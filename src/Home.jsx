@@ -1,48 +1,122 @@
-import React, { Component } from 'react';
+import React, { useState, Component } from 'react';
 import intl from 'react-intl-universal';
 import './App.css';
 import kuleuven from './image/kuleuven.svg';
 import swjtu from './image/swjtu.jpg';
 import vub from './image/vub.svg';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
+import cv from './image/cv.png';
+import { Document, Page } from 'react-pdf';
+import cvPdf from './image/CV_academic.pdf';
+// const headStyle = {
+//   textAlign: 'left'
+// };
+// const textStyle = {
+//   textAlign: 'justify'
+// }
 
-const headStyle = {
-  textAlign: 'left'
-};
-const textStyle = {
-  textAlign: 'justify'
-}
+// const [numPages, setNumPages] = useState(null);
+// const [pageNumber, setPageNumber] = useState(1);
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Row>
-          <Col xs="5">
-            <h3 style={headStyle}>{intl.get('BACKGROUND')}</h3>
-            <p style={textStyle}>{intl.get('BACKGROUND_TEXT')}</p>
-            <h3 style={headStyle}>{intl.get('EDUCATION')}</h3>
-            <h4 style={headStyle}>{intl.get('PHD')}</h4>
-            <img style={{ height: '10vh', float: 'left', marginRight: '1vw' }} src={vub} alt="vub" />
-            <p style={textStyle}>{intl.get('PHD_TEXT')}</p>
-          </Col>
-          <Col xs="1" style={{ height: intl.get('HOME_HEIGHT'), borderRight: '1px groove grey' }}></Col>
-          <Col xs="1"></Col>
-          <Col sm="5" >
-            <h4 style={headStyle}>{intl.get('MASTER')}</h4>
-            <img style={{ height: '5vh', float: 'left', marginRight: '1vw' }} src={kuleuven} alt="kuleuven" />
-            <p style={textStyle}>{intl.get('MASTER_TEXT')}</p>
-            <h4 style={headStyle}>{intl.get('BACHELOR')}</h4>
-            <img style={{ height: '5vh', float: 'left', marginRight: '1vw' }} src={kuleuven} alt="kuleuven" />
-            <p style={textStyle}>{intl.get('BACHELOR_KULEUVEN_TEXT')}</p>
-            <div>&nbsp;</div>
-            <img style={{ height: '10vh', float: 'left', marginRight: '1vw' }} src={swjtu} alt="swjtu" />
-            <p style={textStyle}>{intl.get('BACHELOR_SWJTU_TEXT')}</p>
-          </Col>
-        </Row>
-      </div>
-    );
+// function onDocumentLoadSuccess({ numPages }) {
+//   setNumPages(numPages);
+// }
+
+//   class Home extends Component {
+
+//     render() {
+//       return (
+//         <div>
+//           <Document file={cvPdf} onLoadSuccess={onDocumentLoadSuccess}>
+//             <Page pageNumber={pageNumber} />
+//           </Document>
+//           <p>
+//             Page {pageNumber} of {numPages}
+//           </p>
+//         </div>
+//       );
+//     }
+//   }
+
+//   export default Home;
+
+
+export default function Home() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+    setPageNumber(1);
   }
-}
 
-export default Home;
+  function changePage(offset) {
+    setPageNumber(prevPageNumber => prevPageNumber + offset);
+  }
+
+  function previousPage() {
+    changePage(-1);
+  }
+
+  function nextPage() {
+    changePage(1);
+  }
+
+  return (
+    <div>
+      <Row style={{ marginLeft: "auto", marginRight: "auto" }}>
+        <Col
+          // className="bg-light border"
+          sm={{ size: 12, offset: 3 }}>
+          <Document
+            file={cvPdf}
+            width="100"
+            onLoadSuccess={onDocumentLoadSuccess}
+          // width="1000"
+
+          >
+            <Page pageNumber={pageNumber} />
+          </Document>
+        </Col>
+      </Row>
+      {/* <Row>
+        <Col
+                className="bg-light border"
+                sm={{
+                  offset: 5,
+                  order: 2,
+                  size: 6
+                }}>
+          <p>
+            Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+          </p>
+        </Col>
+      </Row> */}
+      <Row>
+        <Col
+          // className="bg-light border"
+          sm={{
+            offset: 5,
+            size: 6
+          }}
+          >
+
+          <Button color="primary"
+            disabled={pageNumber <= 1}
+            onClick={previousPage}
+            size="lg"
+          >
+            Previous
+          </Button>
+          <Button color="primary"
+            disabled={pageNumber >= numPages}
+            onClick={nextPage}
+            size="lg"
+          >
+            Next
+          </Button>
+        </Col>
+      </Row>
+    </div>
+  );
+}
