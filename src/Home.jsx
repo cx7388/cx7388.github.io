@@ -1,11 +1,11 @@
 import React, { useState, Component } from 'react';
-import intl from 'react-intl-universal';
+// import intl from 'react-intl-universal';
 import './App.css';
-import kuleuven from './image/kuleuven.svg';
-import swjtu from './image/swjtu.jpg';
-import vub from './image/vub.svg';
+// import kuleuven from './image/kuleuven.svg';
+// import swjtu from './image/swjtu.jpg';
+// import vub from './image/vub.svg';
 import { Row, Col, Button } from 'reactstrap';
-import cv from './image/cv.png';
+// import cv from './image/cv.png';
 import { Document, Page } from 'react-pdf';
 import cvPdf from './image/CV_academic.pdf';
 // const headStyle = {
