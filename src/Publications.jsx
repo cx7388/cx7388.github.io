@@ -19,7 +19,25 @@ class Publications extends Component {
                     <ListGroup>
                         <ListGroupItem>
                             <ListGroupItemHeading>
-                                <a href="https://onlinelibrary.wiley.com/share/author/TSZSYNCDG2RIMRR6ABVP?target=10.1002/mcda.1804" target="_blank" rel="noopener noreferrer">
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1684844890/Homepage/MAMCABM_A_Data-Driven_Stakeholder-Based_Decision-Support_System_that_Considers_Uncertainties.pdf" target="_blank" rel="noopener noreferrer">
+                                    {intl.get('PUBLICATION_MAMCABM')}
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Sun, S., Liu, L., Mommens, K., Macharis, C.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-32534-2_7" target="_blank" rel="noopener noreferrer">
+                                    Decision Support Systems XIII. Decision Support Systems in An Uncertain World: The Contribution of Digital Twins.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Conference paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1684845395/Homepage/Criteria_preprocessing_in_multi_actor_multi_criteria_analysis.pdf" target="_blank" rel="noopener noreferrer">
                                     {intl.get('PUBLICATION_Criteria_Preprocessing')}
                                 </a>
                             </ListGroupItemHeading>
