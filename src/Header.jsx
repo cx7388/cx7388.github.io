@@ -36,13 +36,13 @@ class Header extends Component {
               <Container>
                 <Row style={{ float: "right" }}>
                   <Container>
-                    <Col xs="12">
+                    {/* <Col xs="12">
                       <Row>
                         <a className="Ref" onClick={() => {this.handleLocaleChange("en-US")}} href='#'>EN</a>
                         <div className="Ref">|</div>
                         <a className="Ref" onClick={() => {this.handleLocaleChange("zh-CN")}} href='#'>中文</a>
                       </Row>
-                    </Col>
+                    </Col> */}
                   </Container>
                 </Row>
               </Container>
