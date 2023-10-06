@@ -19,6 +19,24 @@ class Publications extends Component {
                     <ListGroup>
                         <ListGroupItem>
                             <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1696623382/Robust_Stakeholder-Based_Group-Decision_Making_Framework_MAMCA_BWM_as0zvb.pdf" target="_blank" rel="noopener noreferrer">
+                                    Robust Stakeholder-Based Group-Decision Making Framework: The Multi-Actor Multi-Criteria Analysis (MAMCA) with the Integration of Best-Worst Method (BWM)
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-40328-6_2" target="_blank" rel="noopener noreferrer">
+                                    BWM 2023: Advances in Best-Worst Method.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Conference paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1684844890/Homepage/MAMCABM_A_Data-Driven_Stakeholder-Based_Decision-Support_System_that_Considers_Uncertainties.pdf" target="_blank" rel="noopener noreferrer">
                                     {intl.get('PUBLICATION_MAMCABM')}
                                 </a>
