@@ -6,6 +6,7 @@ import {
   CardTitle, CardSubtitle, Button,
   Col, Row, Container
 } from 'reactstrap';
+import mcdacalculatorimg from './image/MCDA_calculator.png';
 import thesisimg from './image/thesis.png';
 import mamcaimg from './image/mamca.jpg';
 import newmamcaimg from './image/MAMCA.png';
@@ -35,6 +36,13 @@ class WorkCard extends Component {
 
 class Works extends Component {
   render() {
+    var mcdacalculator = {
+      img: mcdacalculatorimg,
+      title: intl.get('MCDACALCULATOR_TITLE'),
+      subtitle: intl.get('AT_PSI'),
+      text: intl.get('MCDACALCULATOR_TEXT'),
+      url: "https://mcda-calculator.psi.ch/"
+    }
     var newmamca = {
       img: newmamcaimg,
       title: intl.get('NEWMAMCA_TITLE'),
@@ -85,7 +93,23 @@ class Works extends Component {
     return (
       <div>
         <Container>
-          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
+        <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
+          <Col xs="1">
+            </Col>
+            <Col xs="4">
+              <WorkCard img={mcdacalculator.img} title={mcdacalculator.title} subtitle={mcdacalculator.subtitle} text={mcdacalculator.text} url={mcdacalculator.url} />
+            </Col>
+            <Col xs="1">
+            </Col>
+            <Col xs="1">
+            </Col>
+            <Col xs="4">
+              <WorkCard img={newmamca.img} title={newmamca.title} subtitle={newmamca.subtitle} text={newmamca.text} url={newmamca.url} />
+            </Col>
+            <Col xs="1">
+            </Col>
+          </Row>
+          {/* <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}>
           <Col xs="1">
             </Col>
             <Col xs="4">
@@ -117,8 +141,8 @@ class Works extends Component {
             <Col xs="1">
             </Col>
 
-          </Row>
-          <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}> 
+          </Row> */}
+          {/* <Row style={{ marginTop:"3vh",marginBottom: "3vh" }}> 
           <Col xs="1">
             </Col>
             <Col xs="4">
@@ -133,7 +157,7 @@ class Works extends Component {
             </Col>
             <Col xs="1">
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );

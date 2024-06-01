@@ -8,6 +8,7 @@ import Cookies from 'js-cookie';
 import logo from './image/dragon.jpg';
 import gmail from './image/gmail.svg';
 import outlook from './image/outlook.svg';
+import psi from './image/PSI.svg';
 import linkedin from './image/linkedin.svg';
 import github from './image/github.svg';
 import facebook from './image/facebook.svg';
@@ -57,41 +58,52 @@ class Header extends Component {
               <Row style={{ marginBottom: "1vh", float: "right", }}> 
                 <Container>
                 <Col xs="12">
+                    <a className="Ref" href="mailto:he.huang@psi.ch">
+                      he.huang@psi.ch
+                </a>
+                    {/* <a className="Ref" href="mailto:he.huang@psi.ch">
+                      <img style={{ marginLeft: "2.5vh", right: "0"}} src={outlook} className="Header-img" alt="outlook" />
+                    </a> */}
+                  </Col>
+                <Col xs="12">
                     <a className="Ref" href="mailto:he.huang@vub.be">
                       he.huang@vub.be
                 </a>
-                    <a className="Ref" href="mailto:cx7388@gmail.com">
+                    {/* <a className="Ref" href="mailto:he.huang@vub.be">
                       <img style={{ marginLeft: "2.5vh", right: "0"}} src={outlook} className="Header-img" alt="outlook" />
-                    </a>
+                    </a> */}
                   </Col>
                   <Col xs="12">
                     <a className="Ref" href="mailto:cx7388@gmail.com">
                       cx7388@gmail.com
                 </a>
-                    <a className="Ref" href="mailto:cx7388@gmail.com">
+                    {/* <a className="Ref" href="mailto:cx7388@gmail.com">
                       <img style={{ marginLeft: "1vh", right: "0" }} src={gmail} className="Header-img" alt="gmail" />
-                    </a>
+                    </a> */}
                   </Col>
                 </Container>
               </Row>
               <Row style={{ float: "right" }}>
                 <Container>
                   <Col xs="12">
+                  <a style={{ marginLeft: "1vh" }} href="https://www.psi.ch/en/people/he-huang" target="_blank" rel="noopener noreferrer">
+                      <img style={{ marginLeft: "1vh" }} src={psi} className="Header-img" alt="vub" />
+                    </a>
                   <a style={{ marginLeft: "1vh" }} href="https://cris.vub.be/en/persons/he-huang(1eb9fb7f-168d-448a-917b-0e1eaacfbad0).html" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={vub} className="Header-img" alt="vub" />
                     </a>
                     <a style={{ marginLeft: "1vh" }} href="https://github.com/cx7388" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={github} className="Header-img" alt="github" />
                     </a>
-                    <a style={{ marginLeft: "1vh" }} href="https://www.linkedin.com/in/he-huang-85b28511b/" target="_blank" rel="noopener noreferrer">
+                    <a style={{ marginLeft: "1vh" }} href="https://www.linkedin.com/in/river-huang/" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={linkedin} className="Header-img" alt="linkedin" />
                     </a>
-                    <a style={{ marginLeft: "1vh" }} href="https://www.facebook.com/he.huang.3382" target="_blank" rel="noopener noreferrer">
+                    {/* <a style={{ marginLeft: "1vh" }} href="https://www.facebook.com/he.huang.3382" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={facebook} className="Header-img" alt="facebook" />
-                    </a>
-                    <a style={{ marginLeft: "1vh" }} href="https://twitter.com/HeHuang5" target="_blank" rel="noopener noreferrer">
+                    </a> */}
+                    {/* <a style={{ marginLeft: "1vh" }} href="https://twitter.com/HeHuang5" target="_blank" rel="noopener noreferrer">
                       <img style={{ marginLeft: "1vh" }} src={twitter} className="Header-img" alt="twitter" />
-                    </a>
+                    </a> */}
                   </Col>
                 </Container>
               </Row>

@@ -17,6 +17,24 @@ class Publications extends Component {
             <div>
                 <Container style={{ marginBottom: "2.5vh" }}>
                     <ListGroup>
+                    <ListGroupItem>
+                        <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1717252438/Homepage/MCDA_Calculator_Printed_Version.pdf" target="_blank" rel="noopener noreferrer">
+                                MCDA Calculator: A Streamlined Decision Support System for Multi-criteria Decision Analysis
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Burgherr, P.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-59376-5_3" target="_blank" rel="noopener noreferrer">
+                                Decision Support Systems XIV. Human-Centric Group Decision, Negotiation and Decision Support Systems for Societal Transitions.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Conference paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1696623382/Robust_Stakeholder-Based_Group-Decision_Making_Framework_MAMCA_BWM_as0zvb.pdf" target="_blank" rel="noopener noreferrer">
