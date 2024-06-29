@@ -19,6 +19,24 @@ class Publications extends Component {
                     <ListGroup>
                     <ListGroupItem>
                         <ListGroupItemHeading>
+                                <a href="https://link.springer.com/content/pdf/10.1007/s10479-024-06090-6.pdf" target="_blank" rel="noopener noreferrer">
+                                Quantifying and reducing the complexity of multi-line charts as a visual aid in multi-criteria decision-making
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Siraj, S.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
+                                Annals of Operations Research.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                    <ListGroupItem>
+                        <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1717252438/Homepage/MCDA_Calculator_Printed_Version.pdf" target="_blank" rel="noopener noreferrer">
                                 MCDA Calculator: A Streamlined Decision Support System for Multi-criteria Decision Analysis
                                 </a>
