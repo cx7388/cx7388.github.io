@@ -19,7 +19,43 @@ class Publications extends Component {
                     <ListGroup>
                     <ListGroupItem>
                         <ListGroupItemHeading>
-                                <a href="https://link.springer.com/content/pdf/10.1007/s10479-024-06090-6.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
+                                The MAMCABM framework for the evaluation of mobility decision-making problems: theory and practice
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Sun, S, Mommens, K., Macharis, C.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
+                                International Transactions in Operational Research.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+=                    <ListGroupItem>
+                        <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725661444/Homepage/A_collaborative_group_decision-support_system_the_survey_based_multi-actor_multi-criteria_analysis_MAMCA_software.pdf" target="_blank" rel="noopener noreferrer">
+                                A collaborative group decision-support system: the survey based multi-actor multi-criteria analysis (MAMCA) software
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Burgherr, P., Macharis, C.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://www.tandfonline.com/doi/full/10.1080/01605682.2024.2398114" target="_blank" rel="noopener noreferrer">
+                                Journal of the Operational Research Society.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                    <ListGroupItem>
+                        <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725965925/Quantifying_visual_complexity_pbf28z.pdf" target="_blank" rel="noopener noreferrer">
                                 Quantifying and reducing the complexity of multi-line charts as a visual aid in multi-criteria decision-making
                                 </a>
                             </ListGroupItemHeading>
