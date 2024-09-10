@@ -17,10 +17,10 @@ class Publications extends Component {
             <div>
                 <Container style={{ marginBottom: "2.5vh" }}>
                     <ListGroup>
-                    <ListGroupItem>
-                        <ListGroupItemHeading>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
-                                The MAMCABM framework for the evaluation of mobility decision-making problems: theory and practice
+                                    The MAMCABM framework for the evaluation of mobility decision-making problems: theory and practice
                                 </a>
                             </ListGroupItemHeading>
                             <ListGroupItemText>
@@ -28,17 +28,17 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
-                                International Transactions in Operational Research.
+                                    International Transactions in Operational Research.
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
                                 Journal paper
                             </ListGroupItemText>
                         </ListGroupItem>
-=                    <ListGroupItem>
-                        <ListGroupItemHeading>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725661444/Homepage/A_collaborative_group_decision-support_system_the_survey_based_multi-actor_multi-criteria_analysis_MAMCA_software.pdf" target="_blank" rel="noopener noreferrer">
-                                A collaborative group decision-support system: the survey based multi-actor multi-criteria analysis (MAMCA) software
+                                    A collaborative group decision-support system: the survey based multi-actor multi-criteria analysis (MAMCA) software
                                 </a>
                             </ListGroupItemHeading>
                             <ListGroupItemText>
@@ -46,17 +46,17 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://www.tandfonline.com/doi/full/10.1080/01605682.2024.2398114" target="_blank" rel="noopener noreferrer">
-                                Journal of the Operational Research Society.
+                                    Journal of the Operational Research Society.
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
                                 Journal paper
                             </ListGroupItemText>
                         </ListGroupItem>
-                    <ListGroupItem>
-                        <ListGroupItemHeading>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725965925/Quantifying_visual_complexity_pbf28z.pdf" target="_blank" rel="noopener noreferrer">
-                                Quantifying and reducing the complexity of multi-line charts as a visual aid in multi-criteria decision-making
+                                    Quantifying and reducing the complexity of multi-line charts as a visual aid in multi-criteria decision-making
                                 </a>
                             </ListGroupItemHeading>
                             <ListGroupItemText>
@@ -64,17 +64,17 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
-                                Annals of Operations Research.
+                                    Annals of Operations Research.
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
                                 Journal paper
                             </ListGroupItemText>
                         </ListGroupItem>
-                    <ListGroupItem>
-                        <ListGroupItemHeading>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1717252438/Homepage/MCDA_Calculator_Printed_Version.pdf" target="_blank" rel="noopener noreferrer">
-                                MCDA Calculator: A Streamlined Decision Support System for Multi-criteria Decision Analysis
+                                    MCDA Calculator: A Streamlined Decision Support System for Multi-criteria Decision Analysis
                                 </a>
                             </ListGroupItemHeading>
                             <ListGroupItemText>
@@ -82,7 +82,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-59376-5_3" target="_blank" rel="noopener noreferrer">
-                                Decision Support Systems XIV. Human-Centric Group Decision, Negotiation and Decision Support Systems for Societal Transitions.
+                                    Decision Support Systems XIV. Human-Centric Group Decision, Negotiation and Decision Support Systems for Societal Transitions.
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
