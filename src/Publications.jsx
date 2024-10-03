@@ -17,6 +17,24 @@ class Publications extends Component {
             <div>
                 <Container style={{ marginBottom: "2.5vh" }}>
                     <ListGroup>
+                    <ListGroupItem>
+                            <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1727983535/Homepage/Facilitating_Sustainable_Logistics_Policy_Developm.pdf" target="_blank" rel="noopener noreferrer">
+                                Facilitating Sustainable Logistics Policy Development Using Multicriteria Satisfaction Analysis: A Case of Preference Mapping for Cargo Bike Last-Mile Delivery
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Zhang, X., Conrrente, S., Siraj S., Kiba-Janiak M.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-67936-0_10" target="_blank" rel="noopener noreferrer">
+                                Strengthening European Mobility Policy.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Book chapter
+                            </ListGroupItemText>
+                        </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
