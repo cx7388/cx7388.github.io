@@ -19,6 +19,24 @@ class Publications extends Component {
                     <ListGroup>
                         <ListGroupItem>
                             <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1729955033/Homepage/20_years_review_of_the_multi_actor_multi_criteria_analysis.pdf" target="_blank" rel="noopener noreferrer">
+                                    20 years review of the multi actor multi criteria analysis (MAMCA) framework: a proposition of a systematic guideline
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Heuninckx, S., Macharis, C.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06357-y" target="_blank" rel="noopener noreferrer">
+                                    Annals of Operations Research.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
                                     The MAMCABM framework for the evaluation of mobility decision-making problems: theory and practice
                                 </a>
