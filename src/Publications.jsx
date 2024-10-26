@@ -55,7 +55,7 @@ class Publications extends Component {
                         </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
-                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725963521/Homepage/Int_Trans_Operational_Res_-_2024_-_Huang_-_The_MAMCABM_framework_for_the_evaluation_of_mobility_decision80_90making_problems_kprbum.pdf" target="_blank" rel="noopener noreferrer">
                                     The MAMCABM framework for the evaluation of mobility decision-making problems: theory and practice
                                 </a>
                             </ListGroupItemHeading>
@@ -91,7 +91,7 @@ class Publications extends Component {
                         </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
-                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725965925/Quantifying_visual_complexity_pbf28z.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1725965925/Homepage/Quantifying_visual_complexity_pbf28z.pdf" target="_blank" rel="noopener noreferrer">
                                     Quantifying and reducing the complexity of multi-line charts as a visual aid in multi-criteria decision-making
                                 </a>
                             </ListGroupItemHeading>
@@ -127,7 +127,7 @@ class Publications extends Component {
                         </ListGroupItem>
                         <ListGroupItem>
                             <ListGroupItemHeading>
-                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1696623382/Robust_Stakeholder-Based_Group-Decision_Making_Framework_MAMCA_BWM_as0zvb.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1696623382/Homepage/Robust_Stakeholder-Based_Group-Decision_Making_Framework_MAMCA_BWM_as0zvb.pdf" target="_blank" rel="noopener noreferrer">
                                     Robust Stakeholder-Based Group-Decision Making Framework: The Multi-Actor Multi-Criteria Analysis (MAMCA) with the Integration of Best-Worst Method (BWM)
                                 </a>
                             </ListGroupItemHeading>
