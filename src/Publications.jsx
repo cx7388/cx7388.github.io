@@ -19,6 +19,24 @@ class Publications extends Component {
                     <ListGroup>
                         <ListGroupItem>
                             <ListGroupItemHeading>
+                                <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1735911367/Engaging_stakeholders_in_construction_transport_policy_wbvmkl.pdf" target="_blank" rel="noopener noreferrer">
+                                    Engaging stakeholders in construction transport policy: A mass-participation framework
+                                </a>
+                            </ListGroupItemHeading>
+                            <ListGroupItemText>
+                                <b>Huang, H., Brusselaers, N., De Smet, Y., Macharis, C.</b>
+                            </ListGroupItemText>
+                            <ListGroupItemText>
+                                <a style={{ color: "inherit" }} href="https://doi.org/10.1016/j.cstp.2024.101359" target="_blank" rel="noopener noreferrer">
+                                    Case Studies on Transport Policy.
+                                </a>
+                            </ListGroupItemText>
+                            <ListGroupItemText style={{ color: 'grey' }}>
+                                Journal paper
+                            </ListGroupItemText>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                            <ListGroupItemHeading>
                                 <a href="https://res.cloudinary.com/ddwpezn3f/image/upload/v1729955033/Homepage/20_years_review_of_the_multi_actor_multi_criteria_analysis.pdf" target="_blank" rel="noopener noreferrer">
                                     20 years review of the multi actor multi criteria analysis (MAMCA) framework: a proposition of a systematic guideline
                                 </a>
