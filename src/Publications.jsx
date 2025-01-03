@@ -28,7 +28,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://doi.org/10.1016/j.cstp.2024.101359" target="_blank" rel="noopener noreferrer">
-                                    Case Studies on Transport Policy.
+                                    Case Studies on Transport Policy
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -46,7 +46,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06357-y" target="_blank" rel="noopener noreferrer">
-                                    Annals of Operations Research.
+                                    Annals of Operations Research
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -64,7 +64,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-67936-0_10" target="_blank" rel="noopener noreferrer">
-                                    Strengthening European Mobility Policy.
+                                    Strengthening European Mobility Policy
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -82,7 +82,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
-                                    International Transactions in Operational Research.
+                                    International Transactions in Operational Research
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -118,7 +118,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/article/10.1007/s10479-024-06090-6" target="_blank" rel="noopener noreferrer">
-                                    Annals of Operations Research.
+                                    Annals of Operations Research
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -136,7 +136,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-59376-5_3" target="_blank" rel="noopener noreferrer">
-                                    Decision Support Systems XIV. Human-Centric Group Decision, Negotiation and Decision Support Systems for Societal Transitions.
+                                    Decision Support Systems XIV. Human-Centric Group Decision, Negotiation and Decision Support Systems for Societal Transitions
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -154,7 +154,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-40328-6_2" target="_blank" rel="noopener noreferrer">
-                                    BWM 2023: Advances in Best-Worst Method.
+                                    BWM 2023: Advances in Best-Worst Method
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -172,7 +172,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-031-32534-2_7" target="_blank" rel="noopener noreferrer">
-                                    Decision Support Systems XIII. Decision Support Systems in An Uncertain World: The Contribution of Digital Twins.
+                                    Decision Support Systems XIII. Decision Support Systems in An Uncertain World: The Contribution of Digital Twins
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -190,7 +190,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://onlinelibrary.wiley.com/doi/full/10.1002/mcda.1804" target="_blank" rel="noopener noreferrer">
-                                    Journal of multi-criteria decision analysis.
+                                    Journal of multi-criteria decision analysis
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -208,7 +208,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://www.sciencedirect.com/science/article/pii/S0195925522002219" target="_blank" rel="noopener noreferrer">
-                                    Environmental Impact Assessment Review, 98, 106955.
+                                    Environmental Impact Assessment Review
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -226,7 +226,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-030-73976-8_1" target="_blank" rel="noopener noreferrer">
-                                    Decision Support Systems XI: Decision Support Systems, Analytics and Technologies in Response to Global Crisis Management. Springer, p. 3-17 15 p.
+                                    Decision Support Systems XI: Decision Support Systems, Analytics and Technologies in Response to Global Crisis Management
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -244,7 +244,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://www.tandfonline.com/doi/abs/10.1080/13504509.2020.1795005?journalCode=tsdw20" target="_blank" rel="noopener noreferrer">
-                                    International Journal for Sustainable Development & World Ecology. p. 1-11 11 p.
+                                    International Journal for Sustainable Development & World Ecology
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -262,7 +262,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://link.springer.com/chapter/10.1007/978-3-030-46224-6_4" target="_blank" rel="noopener noreferrer">
-                                    Decision Support Systems X: Cognitive Decision Support Systems and Technologies. Springer, p. 43-56 14 p.
+                                    Decision Support Systems X: Cognitive Decision Support Systems and Technologies
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
@@ -280,7 +280,7 @@ class Publications extends Component {
                             </ListGroupItemText>
                             <ListGroupItemText>
                                 <a style={{ color: "inherit" }} href="https://etrr.springeropen.com/articles/10.1186/s12544-020-00405-x" target="_blank" rel="noopener noreferrer">
-                                    European Transport Research Review. 12, 1, p. 1-17 17 p.
+                                    European Transport Research Review
                                 </a>
                             </ListGroupItemText>
                             <ListGroupItemText style={{ color: 'grey' }}>
